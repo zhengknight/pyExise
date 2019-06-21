@@ -1,10 +1,11 @@
 def selectiveSort(arr):
-    for i in range(1,len(arr)):
-        min_num=arr[i-1]
-        for j in range(0,len(arr)-i):
-            if arr[j]>arr[j+1]:
-                min_num=arr[j+1]
-        arr[i-1]=min_num
+    for i in range(len(arr)):
+        minIndex=i
+        for j in range(i+1,len(arr)):
+            if arr[j]<arr[minIndex]:
+                minIndex=j
+        if minIndex!=i:
+           arr[i],arr[minIndex]=arr[minIndex],arr[i]
 
     return arr
 
