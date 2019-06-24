@@ -1,3 +1,8 @@
+#encoding=gbk
+"""
+选择排序练习
+假设最左侧为最小值，右侧实际最小值找出后与假设最小值交换
+"""
 def selectiveSort(arr):
     for i in range(len(arr)):
         minIndex=i
