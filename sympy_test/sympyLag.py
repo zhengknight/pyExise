@@ -1,4 +1,7 @@
-
+#encoding=gbk
+"""
+使用拉格朗日求极值，使用代码求偏导数，不再像sympy1.py文件中手工求偏导数
+"""
 from sympy import symbols, diff, solve
 
 x,y,z=symbols('x,y,z')
