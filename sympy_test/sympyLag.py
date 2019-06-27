@@ -1,6 +1,6 @@
 #encoding=gbk
 """
-浣跨敤鎷夋牸鏈楁棩姹傛瀬鍊硷紝浣跨敤浠ｇ爜姹傚亸瀵兼暟锛屼笉鍐嶅儚sympy1.py鏂囦欢涓墜宸ユ眰鍋忓鏁�
+使用拉格朗日乘数法求极值，代码求偏导数，不再像sympy1.py中手工求偏导数后再构造方程组
 """
 from sympy import symbols, diff, solve
 
